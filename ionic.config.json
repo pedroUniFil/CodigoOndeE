@@ -1,0 +1,7 @@
+{
+  "name": "appONDEE",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
