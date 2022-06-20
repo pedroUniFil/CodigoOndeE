@@ -4,6 +4,6 @@ SOMOS UMA COMUNIDADE ONDE VOCÊ ENCONTRARÁ AS MELHORES FESTA NA SUA REGIÃO, PO
 
 # COMO FUNCIONA:
 
-Aqui você poderá saber quais estabelecimentos (pubs, bares, baladas, entre outros) estão promovendo eventos socias, quais são as musicas que estão tocando.
+Acessando ao nosso site o cliente poderá saber quais estabelecimentos (pubs, bares, baladas, entre outros) estão promovendo eventos socias, quais são as musicas que estão tocando.
 Outro serviço disponível é o de festa de amigos, onde uma pessoa cria o evento e tendo a opção de deixar ela aberta ao público ou restringindo a apenas convidados
 
