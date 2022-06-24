@@ -1,0 +1,38 @@
+ion-header{
+    ion-toolbar{
+        ion-title{
+            font-size: 35px;
+            text-align: center;
+                border-radius: 25px;
+                background: yellowgreen;
+                
+        }
+    }
+}
+#conteudo{
+    ion-grid{
+        ion-item{
+        font-size: 25px;
+        }
+    }
+}
+#botoes{
+    ion-grid{
+        ion-row{
+            ion-col{
+                font-size: 25px;
+                text-align: center;
+                ion-button{
+                    font-size: 35px;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+    #canc{
+        background: red;
+    }
+    #env{
+        background: limegreen;
+    }
+}

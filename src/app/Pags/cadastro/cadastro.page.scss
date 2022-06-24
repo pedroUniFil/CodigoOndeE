@@ -1,0 +1,68 @@
+#cabec{
+    #princ{
+        font-size: 30px;
+    }
+    #second{
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: start;
+    }
+}
+
+#cont{
+    ion-label{
+        font-size: 25px;
+    }
+    ion-input{
+        font-size: 20px;
+    }
+}
+
+#faixa{
+    ion-card-title{
+        font-size: 30px;
+        font-family:'Courier New', Courier, monospace
+    }
+}
+
+ion-grid{
+    background-color: rgb(94, 8, 151);
+    text-align: center;  
+}
+ion-row{
+    background-color: rgb(31, 2, 55);
+    text-align: center;
+}
+ion-col{
+    background-color: rgb(34, 33, 33);
+    text-align: center;
+}
+ion-item{
+    text-align: center;
+}  
+
+ion-title{
+    text-align: center;
+}
+ion-card-title{
+    text-align: center;
+}
+
+#botoes{
+    ion-col{
+    text-align: center;
+    background-color: rgb(31, 2, 55);
+    ion-button{
+        color: rgb(0, 0, 0);
+        text-decoration-color: purple;
+        font-size: 25px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background: rgb(44, 240, 44);
+        border-radius: 20px;
+        border-width: 5px;
+    }
+    #canc{
+        background: red;
+    }
+    }
+}

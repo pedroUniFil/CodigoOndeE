@@ -1,0 +1,38 @@
+ion-header{
+    ion-toolbar{
+    background-color: #ffff;
+    }
+    text-align: center;
+    ion-title{
+    background-color: rgb(56, 6, 110);
+    font-size: 30px;
+    border-radius: 25px;
+    }
+}
+#conteudo{
+    ion-grid{
+        ion-item{
+            ion-label{
+                font-size: 20px;
+            } 
+        }
+    }       
+}
+#botoes{ 
+    ion-col{
+        text-align: center;
+    ion-button{
+        font-size: 25px;
+        border-radius: 25px;
+    }
+    #canc{
+        background: red;
+    }
+    #CV{
+        background: rgb(2, 188, 30);
+    }
+    #SPT{
+        background: yellowgreen;
+    }
+    }
+}

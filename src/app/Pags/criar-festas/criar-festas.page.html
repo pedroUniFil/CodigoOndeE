@@ -1,0 +1,65 @@
+<ion-header>
+  <ion-grid>
+  <ion-toolbar>
+    <ion-grid>
+    <ion-title>Criar Festa</ion-title>
+    </ion-grid>
+  </ion-toolbar>
+  </ion-grid>
+</ion-header>
+
+<ion-content>
+
+  <div id="conteudo">
+    <ion-grid>
+    <ion-item>
+      <ion-label>ID: <ion-input></ion-input></ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Nome do evento: <ion-input></ion-input></ion-label>
+    </ion-item>
+<ion-col>
+    <ion-item (click)="showPicker = !showPicker">
+      <ion-label>Data do Evento
+
+      </ion-label>
+      <ion-text slot="end">
+        {{ formattedString }}
+      </ion-text>
+    </ion-item>
+    <ion-datetime *ngIf="showPicker"></ion-datetime>
+</ion-col>
+    <ion-item>
+      <ion-label>Endereço do evento: <ion-input></ion-input></ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label placeholder="Email dos convidados:">Email dos convidados:
+        <ion-input type="multiple">Email 1:</ion-input>
+        <ion-input type="multiple">Email 2:</ion-input>
+        <ion-input type="multiple">Email 3:</ion-input>
+      </ion-label>
+    </ion-item>
+
+    </ion-grid>
+  </div>
+
+  <div id="botoes">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-button color="sucess" id="canc" (click)="btCanc()">
+            CANCELAR
+          </ion-button><ion-button color="sucess" id="CV" (click)="btCV()">
+            CRIAR EVENTO
+          </ion-button>
+          <ion-button color="sucess" id="SPT" (click)="btSPT()">
+            SUPORTE
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>
