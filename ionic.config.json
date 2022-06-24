@@ -1,0 +1,7 @@
+{
+  "name": "OndeEPageTab",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
